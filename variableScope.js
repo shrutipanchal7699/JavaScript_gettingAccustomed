@@ -4,9 +4,7 @@ var myResult = "Success";
 
 function randomizer(limit) {
     var randomNumber = Math.floor(Math.random() * limit);
-
     var myNum = randomNumber;
-
     console.log("myNum is", myNum);
     //console.log("Global myNum is", this.myNum);
 
