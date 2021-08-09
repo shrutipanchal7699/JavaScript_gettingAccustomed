@@ -8,7 +8,7 @@ function randomizer(limit) {
     var myNum = randomNumber;
 
     console.log("myNum is", myNum);
-    console.log("Global myNum is", this.myNum);
+    //console.log("Global myNum is", this.myNum);
 
     console.log("Out result is", myResult);
     return myNum;
